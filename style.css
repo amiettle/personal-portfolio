@@ -224,6 +224,10 @@ border: 0 !important;
   gap: 0rem;
 }
 
+.text {
+  display: none;
+}
+
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -256,6 +260,7 @@ border: 0 !important;
   }
   
   .text {
+    display: inline;
     background-color: black;
     color: white;
     padding: 14px 48px;
