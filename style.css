@@ -297,18 +297,6 @@ border: 0 !important;
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  
-  /* .reveal-onscroll {
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
-  }
-  
-  .reveal-onscroll.active{
-    transform: translateY(0);
-    opacity: 1;
-  } */
 }
  
 .project-container {
@@ -388,7 +376,7 @@ border: 0 !important;
   .primary-navigation {
     display: none;
 
-    position: fixed;
+    position: absolute;
     padding: var(--size-700);
     inset: 6rem var(--size-400) auto;
     max-width: 25rem;
