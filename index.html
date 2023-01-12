@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/assets/website-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amie Le</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="nav-wrapper">
+        <a class="logo" href="index.html"><img src="assets/logo.png" alt=""></a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <img class="icon-hamburger" src="assets/hamburger-menu-icon.svg" alt="" aria-hidden="true">
+          <img class="icon-close" src="assets/close-menu-icon.svg" alt="" aria-hidden="true">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul role="list" class="nav-list text-primary-400">
+            <li><a href="#projects" class="ff-body fs-xsmall">Work</a></li>
+            <li><a href="https://tinyurl.com/mrx4cmcp" target="_blank" class="ff-body fs-xsmall">Resume</a></li>
+            <li><a href="https://github.com/amiettle" target="_blank" class="ff-body fs-xsmall">Github</a></li>
+            <li><a href="mailto:amiettle@gmail.com" target="_blank" class="ff-body fs-xsmall">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="reveal-onload">
+      <section class="about padding-block-700">
+        <div class="container">
+          <div class="about-text">
+            <p class="ff-body fs-primary-heading fw-regular text-primary-400">
+              Front end developer passionate about UX design. 
+              Currently studying informatics at <u>UC Irvine</u>, 
+              specializing in human and computer interaction, 
+              and doing design things at <u>OOTify</u>. Based in 
+              Orange County, California&#129767;</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects padding-block-700">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <p class="ff-heading fs-primary-heading fw-bold padding-bottom-700 text-primary-400">Featured Work</p>
+
+              <div class="project-container">
+                <a>
+                  <div class="project-header">
+                    <p class="ff-body fs-medium fw-semibold text-primary-400 hover-underline-animation">OOTify Web App - Coming Soon</p>
+                    <p class="ff-body fs-medium fw-semibold text-primary-400">@OOTify</p>
+                  </div>
+                  <p class="ff-heading fs-xsmall fw-regular text-accent-400">Fall 2022 | Web Development</p>
+                  <p class="ff-body fs-small fw-regular padding-block-300">Digital hub designed to help college students navigate mental health resources.</p>
+                  <div class="thumbnail-wrapper">
+                    <img class="project-thumbnail" src="assets/ootifythumbnail.png" alt="">
+                    <div class="middle">
+                      <div class="text ff-body fs-small fw-semibold text-primary-400">In Progress</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-container">
+                <a href="https://github.com/amiettle/sleeptracker-app" target="_blank">
+                  <div class="project-header">
+                    <p class="ff-body fs-medium fw-semibold text-primary-400 hover-underline-animation">Sleep Tracker Mobile App</p>
+                    <p class="ff-body fs-medium fw-semibold text-primary-400">@UCI</p>
+                  </div>
+                  <p class="ff-heading fs-xsmall fw-regular text-accent-400">Fall 2022 | App Development</p>
+                  <p class="ff-body fs-small fw-regular padding-block-300">Ionic app for logging hours slept and recording sleepiness throughout the day.</p>
+                  <div class="thumbnail-wrapper">
+                    <img class="project-thumbnail" src="assets/sleeptrackerthumbnail.png" alt="">
+                    <div class="middle">
+                      <div class="text ff-body fs-small fw-semibold text-primary-400">View Project on Github</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+            <div>
+              <div class="project-container">
+                <a href="/projects/recap/recap.html">
+                  <div class="project-header">
+                    <p class="ff-body fs-medium fw-semibold text-primary-400 hover-underline-animation">Time Capsule Mobile App</p>
+                    <p class="ff-body fs-medium fw-semibold text-primary-400">@UCI</p>
+                  </div>
+                  <p class="ff-heading fs-xsmall fw-regular text-accent-400">Spring 2022 | UX/UI Design</p>
+                  <p class="ff-body fs-small fw-regular padding-block-300">Mobile app that reimagines the nostalgic experience of creating a time capsule.</p>
+                  <div class="thumbnail-wrapper">
+                    <img class="project-thumbnail" src="assets/recapthumbnail.png" alt="">
+                    <div class="middle">
+                      <div class="text ff-body fs-small fw-semibold text-primary-400">Read Case Study</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="project-container">
+                <a href="/projects/mtplate/mtplate.html">
+                  <div class="project-header">
+                    <p class="ff-body fs-medium fw-semibold text-primary-400 hover-underline-animation">Food Waste Tracker</p>
+                    <p class="ff-body fs-medium fw-semibold text-primary-400">@UCI</p>
+                  </div>
+                  <p class="ff-heading fs-xsmall fw-regular text-accent-400">Winter 2021 | UX/UI Case Study</p>
+                  <p class="ff-body fs-small fw-regular padding-block-300">Recording food waste and reducing our carbon footprint one plate at a time.</p>
+                  <div class="thumbnail-wrapper">
+                    <img class="project-thumbnail" src="assets/mtplatethumbnail.png" alt="">
+                    <div class="middle">
+                      <div class="text ff-body fs-small fw-semibold text-primary-400">Read Case Study</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
