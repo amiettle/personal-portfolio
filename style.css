@@ -376,7 +376,8 @@ border: 0 !important;
   .primary-navigation {
     display: none;
 
-    position: absolute;
+    position: fixed;
+    z-index: 100;
     padding: var(--size-700);
     inset: 6rem var(--size-400) auto;
     max-width: 25rem;
