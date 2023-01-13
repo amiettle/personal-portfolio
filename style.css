@@ -224,6 +224,14 @@ border: 0 !important;
   gap: 0rem;
 }
 
+.thumbnail-wrapper {
+  position: unset;
+}
+
+.middle {
+  position: unset;
+}
+
 .text {
   display: none;
 }
@@ -370,6 +378,7 @@ border: 0 !important;
     width: 100%;
     background: #ffffff;
     position: fixed;
+    z-index: 1000;
     padding-bottom: var(--size-200);
   }
 
@@ -377,7 +386,7 @@ border: 0 !important;
     display: none;
 
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     padding: var(--size-700);
     inset: 6rem var(--size-400) auto;
     max-width: 25rem;
